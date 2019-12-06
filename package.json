@@ -1,0 +1,20 @@
+{
+  "name": "likewisechallenge",
+  "version": "1.0.0",
+  "description": "word scramble score",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "jd2rogers2",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "chai": "^4.2.0",
+    "expect": "^24.9.0",
+    "mocha": "^6.2.2"
+  }
+}
