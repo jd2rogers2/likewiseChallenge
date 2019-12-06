@@ -1,15 +1,15 @@
 global.expect = require('expect');
-var {wordLooksReal, assessWords} = require('../index.js');
+var {scrambleLooksReal, assessWords} = require('../index.js');
 
 describe('word scramble score', function() {
-    describe('wordLooksReal', () => {
+    describe('scrambleLooksReal', () => {
         it('passes given words', () => {
-            expect(wordLooksReal('MAPS')).toEqual(true);
-            // expect(wordLooksReal('RIONY')).toEqual();
-            // expect(wordLooksReal('ONYRI')).toEqual();
-            expect(wordLooksReal('IRONY')).toEqual(true);
-            // expect(wordLooksReal('INOYR')).toEqual();
-            expect(wordLooksReal('IOYRN')).toEqual(false);
+            expect(scrambleLooksReal('MAPS')).toEqual(true);
+            // expect(scrambleLooksReal('RIONY')).toEqual();
+            // expect(scrambleLooksReal('ONYRI')).toEqual();
+            expect(scrambleLooksReal('IRONY')).toEqual(true);
+            // expect(scrambleLooksReal('INOYR')).toEqual();
+            expect(scrambleLooksReal('IOYRN')).toEqual(false);
         })
     })
 
